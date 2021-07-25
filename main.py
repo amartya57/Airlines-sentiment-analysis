@@ -89,9 +89,9 @@ def classify_sentiment_get(data):
     
     '''Returning a prediction corresponding to the predicted value'''
     if(y_hat>0.5):
-        return {'Sentiment':"Positive review"}
+        return {'Sentiment':'Positive review'}
     else:
-        return {'Sentiment':"Negative review"}
+        return {'Sentiment':'Negative review'}
 
 
 '''
@@ -143,9 +143,9 @@ def classify_sentiment(data):
     
     '''Returning a prediction corresponding to the predicted value'''
     if(y_hat>0.5):
-        return {'Sentiment':"Positive review"}
+        return {'Sentiment':'Positive review'}
     else:
-        return {'Sentiment':"Negative review"}
+        return {'Sentiment':'Negative review'}
     
 
 '''Creating the custom swagger api documentation'''
